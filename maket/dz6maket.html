@@ -5,37 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="dz6maket.css">
+    <link rel="stylesheet" href="/maket/Normalize.css">
+    <link rel="stylesheet" href="/assets/fonts/Poppins-Regular.ttf">
 </head>
 <body>
-    <main class="main">
-        
-        <form class="mainpart">
-            Get Started Now
-            <div>
-                <label for="name">Name</label>
-                <input type="text" id="name" />
+    <main class="container">
+        <form action="..." class="mainpart">
+            <h1>Get Started Now</h1>
+            <div class="titles">Name</div> <input type="text" id="name" placeholder="Enter your name"/> 
+            <div class="titles">Email address</div> <input type="text" id="email" placeholder="Enter your email"/> 
+            <div class="titles">Password</div> <input type="password" id="password" placeholder="Name" /> 
+            <p><input type="checkbox" class="checkbox__btn"> I agree to the <a href="..." class="I__agree"> terms & policy</a></p> <br>
+                <div><button class="signup__btn">Signup</button></div>
+                <div class="Line">
+                    <hr>
+                    <div class="Line__text">Or</div>
+                    <hr>
+                </div>
+                
+            <div class="button1">
+                <button type="button" class="bt__1">
+                    <span class="icon-button"><img src="..//assets/icons8-google 1.svg"> </span> Sign in with Google
+                </button>
+                <button type="button" class="bt__1">
+                    <span class="icon-button1"><img src="../assets/icons8-apple-logo 1.svg"> </span> Sign in with Apple
+                </button>
             </div>
-            <div>
-                <label for="email">Email address</label>
-                <input type="text" id="email" />
-            </div>
-            <div>
-                <label for="password">Password</label>
-                <input type="password" id="password" /> 
-            </div>
-            <div>
-                <input type="checkbox">I agree to the <a href="..."> terms & policy</a>
-            </div>
-            <div><button>Signup</button></div>
-            <p>Or</p>
-            <div class="button1"><button type="button">
-                <span class="icon-button"></span> Sign in with Google</button>
-            </div>
-            <div><button type="button">
-                <span class="icon-button1"></span> Sign in with Apple</button>
-            </div>
+            <h2>Have an account?<a href="..." class="account__have"> Sign In</a></h2>
         </form>
-        <aside class="asidepart"></aside>
+        <aside class="asidepart"><img src="../assets/aside_img.png"> </aside> 
     </main>
 </body>
 </html>

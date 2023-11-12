@@ -1,31 +1,143 @@
+@font-face{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../assets/fonts/Poppins-Regular.ttf');
+}
 body{
-    text-align: center;
+    margin: 0;
+    font-family: Poppins;
 }
-.main{
+
+h1{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.container{
     display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 2fr 1fr;
     grid-template-areas: "mainpart asidepart";
+    
 }
+
 .mainpart{
     grid-area: mainpart;
-    height: 638px;
-    padding-bottom: 0px;
-    align-items: flex-start;
-    gap: 10px;
-}
-.button1{
-    display: inline-flex;
-    padding: 4px 20px;
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 10px;
-    border: 1px solid var(--muted, #D9D9D9);
+    margin: 0 auto;
+    width: 404px;
+    height: 638px;
+    padding: 175px 175px 202px 202px;
 }
-.icon-button{
-    background-image: url(/assets/icons8-google\ 1.svg);
-    background-size: 24px 24px;
-}
+
 .asidepart{
     grid-area: asidepart;
-    background-image: url(/assets/aside_img.png);
+    width: 50vh;
+    
+}
+.titles{
+	color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 19.7px;
+    height: 21px;
+}
+
+input {
+    margin-top: 5px;
+    width: 404px;
+    height: 32px;
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+}
+
+.checkbox__btn{
+    width: 9px;
+    height: 9.849px;
+    border-radius: 2px;
+    border: 1px solid #000;
+    margin-top: 19.7px;
+}
+
+.signup__btn{
+    width: 404px;
+    height: 32px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid #3A5B22;
+    background: #3A5B22;
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 29.55px;
+}
+
+.account__have{
+    text-decoration: none;
+    text-align: center;
+}
+
+.I__agree{
+    color: #000;
+}
+
+.Line{
+    display: flex;
+    align-items: center;
+    margin-bottom: 59.09px;
+    margin-top: 59.09px;
+}
+
+hr{
+    border: 2px solid rgba(245, 245, 245, 1);
+    width: 194.5px;
+}
+
+.Line__text{
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 11px;
+    height: 14px;
+}
+
+.button1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icon-button, .icon-button1{
+    width: 24px;
+    height: 24px;
+}
+
+.bt__1{
+    display: inline-block;
+    width: 190px;
+    height: 32px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+}
+
+h2{
+    text-align: center;
+    margin-top: 25.02px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
